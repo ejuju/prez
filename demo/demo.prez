@@ -1,0 +1,50 @@
+---
+title: Markdown-to-PDF Slides for Developers
+author: Julien Sellier
+lang: en
+---
+
+# Introduction
+
+Prez allows you to define simple slides in Markdown
+and export them as PDF.
+
+---
+
+# Document Structure
+
+Prez documents must begin with a metadata header,
+for example:
+```
+---
+title: Markdown-to-PDF Slides for Developers
+author: Julien Sellier
+lang: en
+---
+```
+
+Which is then followed by pages.
+
+---
+
+# Pages
+
+Pages are separated by triple-hyphens ("---").
+Each page is made up of consecutive blocks.
+
+---
+
+# Blocks
+
+The following block types are supported:
+- H1 ("#")
+- Text (default)
+- Image ("![]()")
+- Code ("```")
+- List ("-")
+
+---
+
+# Image blocks
+
+![Example](example.png)
